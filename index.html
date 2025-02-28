@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="accueil" class="section accueil">
+        <div class="container">
+            <div class="presentation">
+                <h1>Micheline Gloria M</h1>
+                <p>une passionnée de marketing, de communication et de commerce. Après avoir suivi une formation en marketing et communication, je me spécialise actuellement dans le développement web pour élargir mes compétences et apporter des solutions numériques créatives. Parallèlement, je me lance également dans la vente en ligne, un domaine où je mets à profit mes compétences en stratégie digitale pour offrir une expérience client optimale. . Bienvenue sur mon portfolio !</p>
+            </div>
+            <div class="image">
+                <img src="rasta.jpg" alt="Ton image">
+            </div>
+        </div>
+    </section>
+
+    <section id="projets" class="section projets">
+        <h2>Mes Projets</h2>
+        <div class="projets-container">
+            <div class="projet">
+                <h3>Production Animal de Lapin</h3>
+                <img src="nvo.jpg" alt="Projet 1"> 
+                <p>Les lapins seront élevés principalement pour leur viande, qui est un produit riche en protéines et faible en matières grasses, idéal pour les consommateurs soucieux de leur santé.</p>
+            </div>
+            <div class="projet">
+                <h3>Location de Véhicule</h3>
+                <img src="VEHICULE TOYOTA.png" alt="Projet 2"> 
+                <p>Le projet de location de véhicules consiste à offrir aux clients une large gamme de véhicules (voitures, utilitaires, motos) à des tarifs compétitifs, pour des durées flexibles allant de quelques heures à plusieurs mois.</p>
+            </div>
+            <div class="projet">
+                <h3>Decoration d'Interrieur</h3>
+                <img src="imageutile.avif" alt="Projet 3"> 
+                <p>Mon projet de décoration d'intérieur vise à créer des espaces fonctionnels, esthétiques et personnalisés, en tenant compte des besoins et des goûts spécifiques de chaque client.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <h2>Contactez-moi</h2>
+        <form id="formContact">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+            
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="numero">NUMERO :</label>
+            <input type="numero" id="numero" name="numero" required>
+            
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>Réaliser par HMG EN Février 2025 à l'ENVOL</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

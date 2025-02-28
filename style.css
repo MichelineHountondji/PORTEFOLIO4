@@ -1,0 +1,159 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fae492;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center; 
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+
+nav ul li {
+    margin: 0 20px; 
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+    font-size: 18px;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    color: #ff8c00; 
+}
+
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.accueil {
+    background-color: white;
+    color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.presentation {
+    width: 50%;
+}
+
+.presentation h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.presentation p {
+    font-size: 1.1rem;
+    color: #0c0c0c;
+    margin-top: 10px;
+}
+
+.image {
+    width: 20px;
+    
+}
+
+.image img {
+    width: 150px;
+    height: 300px;
+    border-radius: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1%;
+}
+
+.projets {
+    background-color: #33333301;
+    color: rgba(16, 16, 16, 0.792);
+}
+
+.projets-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.projet {
+    background-color: #4444440c;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    text-align: center;
+}
+
+.projet img {
+    width: 100%;
+    border-radius: 8px;
+    height: auto;
+    display: flex;
+    
+}
+
+.projet h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.contact {
+    background-color: #fff;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
